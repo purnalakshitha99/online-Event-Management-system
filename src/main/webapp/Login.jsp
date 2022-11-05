@@ -8,6 +8,7 @@
 </head>
 <body>
 
+<form action ="log" method = "post">
 
 <table>
 <tr>
@@ -19,10 +20,12 @@
 <tr>
     <td>Password :</td>
 	<td><input type = "password" name = "password"></td>
-
+</tr>
+<tr>
+	<td><input type = "submit" name = "submit" value ="Login"></td>
 
 </table>
-
+</form>
 
 
 </body>

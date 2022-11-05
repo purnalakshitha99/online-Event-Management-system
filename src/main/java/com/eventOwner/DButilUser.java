@@ -41,14 +41,18 @@ public class DButilUser {
 	}
 	
 	public static boolean validate(String username,String password) {
+		
+		
 		try {
 			con = DBConnectionEvent.getConnection();
 			stmt = con.createStatement();
-			String sql = "seletct * from user where userName ='"+username+"' and password ='"+password+"'";
+			String sql = "select * from user where userName ='"+username+"' and password ='"+password+"'";
 			rs = stmt.executeQuery(sql);
 			
 			if(rs.next()) {
 				isSuccess = true;
+			}else {
+				isSuccess = false;
 			}
 			
 			
