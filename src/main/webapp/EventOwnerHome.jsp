@@ -9,6 +9,12 @@
 <body>
 
 <h1>Event Owner HomePage</h1>
+<from action = "view">
+<button type = "submit">View Event</button>
+
+</from>
+<br>
+<a href = "insertEvent.jsp">Add Event </a>
 
 </body>
 </html>

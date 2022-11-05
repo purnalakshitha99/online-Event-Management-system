@@ -17,15 +17,11 @@ public class DBConnectionEvent {
 			 con = DriverManager.getConnection(url,username,password);
 			System.out.println(" connection eka athulataath awa udata awaaaa");
 			
-		}catch (ClassNotFoundException e) {
-			System.out.println(e.getMessage());
-		}catch (SQLException e) {
-			System.out.println(e.getMessage());
+		}catch (Exception e) {
+			System.out.println("connection not successfull");
+		
 		}
-		if(con != null)
-		{
-			System.out.println("connection made!!");
-		}
+		
 		return con;
 	}
 
