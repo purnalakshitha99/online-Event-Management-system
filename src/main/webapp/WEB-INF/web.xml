@@ -59,4 +59,34 @@
     <servlet-name>ViewEventServelt</servlet-name>
     <url-pattern>/ViewEventServelt</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewEventDetailsServlet</display-name>
+    <servlet-name>ViewEventDetailsServlet</servlet-name>
+    <servlet-class>com.eventOwner.ViewEventServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewEventDetailsServlet</servlet-name>
+    <url-pattern>/ViewEventDetailsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewEventDetaServlet</display-name>
+    <servlet-name>ViewEventDetaServlet</servlet-name>
+    <servlet-class>com.eventOwner.ViewEventDetaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewEventDetaServlet</servlet-name>
+    <url-pattern>/ViewEventDetaServlet</url-pattern>
+  </servlet-mapping>
+<!--   <servlet> -->
+<!--     <description></description> -->
+<!--     <display-name>addEventServlet</display-name> -->
+<!--     <servlet-name>addEventServlet</servlet-name> -->
+<!--     <servlet-class>com.eventOwner.addEventServlet</servlet-class> -->
+<!--   </servlet> -->
+<!--   <servlet-mapping> -->
+<!--     <servlet-name>addEventServlet</servlet-name> -->
+<!--     <url-pattern>/addEventServlet</url-pattern> -->
+<!--   </servlet-mapping> -->
 </web-app>

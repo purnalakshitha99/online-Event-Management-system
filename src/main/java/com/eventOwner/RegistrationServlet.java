@@ -27,7 +27,7 @@ public class RegistrationServlet extends HttpServlet {
 	  
 	  if(isTrue == true) {
 		  
-		  RequestDispatcher dis = request.getRequestDispatcher("success.jsp");
+		  RequestDispatcher dis = request.getRequestDispatcher("Login.jsp");
 		  dis.forward(request, response);
 	  }else {
 		  RequestDispatcher dis = request.getRequestDispatcher("unsuccess.jsp");

@@ -61,5 +61,29 @@ public class DButilUser {
 			}
 		return  isSuccess;
 	}
+	
+	public static boolean insertEvent(String eventname,String date,String venue,int numberOfGuest,String handler) {
+		boolean isSuccess = false;
+		
+		try {
+			con = DBConnectionEvent.getConnection();
+			stmt = con.createStatement();
+			String sql = "insert into event values(0,'"+eventname+"','"+date+"','"+venue+"','"+numberOfGuest+"','"+handler+"')";
+			
+			int rs = stmt.executeUpdate(sql);
+			
+			if(rs>0) {
+				isSuccess = true;
+			}else {
+				isSuccess = false;
+			}
+					
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+		return isSuccess;
+	}
+	
+	
 }
 	
