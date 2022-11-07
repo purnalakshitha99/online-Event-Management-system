@@ -15,7 +15,7 @@ public class DBConnectionEvent {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			 con = DriverManager.getConnection(url,username,password);
-			System.out.println(" connection eka athulataath awa udata awaaaa");
+			
 			
 		}catch (Exception e) {
 			System.out.println("connection not successfull");

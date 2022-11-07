@@ -39,54 +39,14 @@
     <servlet-name>LoginServletEvent</servlet-name>
     <url-pattern>/LoginServletEvent</url-pattern>
   </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ViewEventServlet</display-name>
-    <servlet-name>ViewEventServlet</servlet-name>
-    <servlet-class>com.eventOwner.ViewEventServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ViewEventServlet</servlet-name>
-    <url-pattern>/ViewEventServlet</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ViewEventServelt</display-name>
-    <servlet-name>ViewEventServelt</servlet-name>
-    <servlet-class>com.eventOwner.ViewEventServelt</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ViewEventServelt</servlet-name>
-    <url-pattern>/ViewEventServelt</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ViewEventDetailsServlet</display-name>
-    <servlet-name>ViewEventDetailsServlet</servlet-name>
-    <servlet-class>com.eventOwner.ViewEventServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ViewEventDetailsServlet</servlet-name>
-    <url-pattern>/ViewEventDetailsServlet</url-pattern>
-  </servlet-mapping>
-  <servlet>
-    <description></description>
-    <display-name>ViewEventDetaServlet</display-name>
-    <servlet-name>ViewEventDetaServlet</servlet-name>
-    <servlet-class>com.eventOwner.ViewEventDetaServlet</servlet-class>
-  </servlet>
-  <servlet-mapping>
-    <servlet-name>ViewEventDetaServlet</servlet-name>
-    <url-pattern>/ViewEventDetaServlet</url-pattern>
-  </servlet-mapping>
 <!--   <servlet> -->
 <!--     <description></description> -->
-<!--     <display-name>addEventServlet</display-name> -->
-<!--     <servlet-name>addEventServlet</servlet-name> -->
-<!--     <servlet-class>com.eventOwner.addEventServlet</servlet-class> -->
+<!--     <display-name>DeleteEventServlet</display-name> -->
+<!--     <servlet-name>DeleteEventServlet</servlet-name> -->
+<!--     <servlet-class>com.eventOwner.DeleteEventServlet</servlet-class> -->
 <!--   </servlet> -->
 <!--   <servlet-mapping> -->
-<!--     <servlet-name>addEventServlet</servlet-name> -->
-<!--     <url-pattern>/addEventServlet</url-pattern> -->
+<!--     <servlet-name>DeleteEventServlet</servlet-name> -->
+<!--     <url-pattern>/DeleteEventServlet</url-pattern> -->
 <!--   </servlet-mapping> -->
 </web-app>

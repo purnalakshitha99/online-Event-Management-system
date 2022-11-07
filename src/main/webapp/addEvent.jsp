@@ -1,5 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +9,9 @@
 <title>Insert title here</title>
 </head>
 <body>
+
+
+
 
 
 <table>
@@ -19,7 +24,7 @@
 </tr>
 <tr>
 	<td>Date:</td>
-	<td><input type = "text" name ="date" > </td>
+	<td><input type = "date" name ="date" > </td>
 </tr>
 <tr>
 	<td>Venue:</td>

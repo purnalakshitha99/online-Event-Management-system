@@ -27,6 +27,8 @@ public class LoginServletEvent extends HttpServlet {
 		
 		if(isTrue == true) {
 			
+			
+			
 			HttpSession session = request.getSession();
 			session.setAttribute("username", uname);
 			RequestDispatcher dis = request.getRequestDispatcher("EventOwnerHome.jsp");
@@ -34,6 +36,9 @@ public class LoginServletEvent extends HttpServlet {
 		}
 		else {
 		
+			RequestDispatcher dis = request.getRequestDispatcher("unsuccess.jsp");
+			dis.forward(request, response);
+			System.out.println("waradi");
 			out.println("<script type = 'text/javascript'");
 			out.println("alert('you username or password incorrect')");
 			out.println("location = 'Login.jsp'");

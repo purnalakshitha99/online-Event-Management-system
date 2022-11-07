@@ -12,7 +12,7 @@
 <div class="topnav">
   <a class="active" href="EventOwnerHome.jsp">Home</a>
   <a href="addEvent.jsp">ADD Event</a>
-  <a href="#contact">Contact</a>
+  <a href="view">View Event</a>
   <a href="#about">About</a>
 </div>
 

@@ -34,7 +34,7 @@ public class addEventServlet extends HttpServlet {
 			out.println("</script>");
 		}else {
 			out.println("<script type = 'text/javascript'>");
-			out.println("alert('Inser Unsuccess');");
+			out.println("alert('Insert Unsuccess');");
 			out.println("location = 'EventOwnerHome.jsp'");
 			out.println("</script>");
 		}
